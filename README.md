@@ -4,6 +4,8 @@
 
 [Part 1: Discovering Rust Workshop](https://github.com/MartinFillon/Workshop-rust/blob/main/Discovery.md)
 
+[Part 2: Challenger, the next steps](https://github.com/MartinFillon/Workshop-rust/blob/main/Challenger.md)
+
 ## Team
 
 Developers
