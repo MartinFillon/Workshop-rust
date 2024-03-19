@@ -37,13 +37,13 @@ Create a function that takes an integer type as parameter and is able to return 
 
 | Percentage  | Grade Value |
 | ----------- | ----------- |
-| 100% - 90%  | A           |
-| 89% - 80%   | B           |
-| 79% - 70%   | C           |
-| 69% - 60%   | D           |
-| < 60%       | F           |
+| 100 - 90  | A           |
+| 89 - 80   | B           |
+| 79 - 70   | C           |
+| 69 - 60   | D           |
+| < 60       | F           |
 
-(Hint: Look at `match`)
+*(Hint: Look at `match`)*
 
 ## Exercise 1
 
@@ -59,7 +59,7 @@ Grade: C
 Passing: Yes
 ```
 
-(Hints: Use nested `match` statements to handle multiple conditions and use string formatting to construct the output message.)
+*(Hints: Use nested `match` statements to handle multiple conditions and use string formatting to construct the output message.)*
 
 > Simple right? Imagine a FizzBuzz in Rust
 
@@ -119,11 +119,13 @@ fn main() {
 }
 ```
 
+Do you understand what the compiler is saying?
+
 # Part 3 - Iterators
 
-Let's look at Iterators!
+Let's look at **Iterators** now.
 
-An iterator pattern allows you to perform some task on a sequence of items in turn.
+An Iterator pattern will basically allow you to perform some task on a sequence of items in turn.
 
 ## Exercise 4
 
@@ -133,7 +135,7 @@ Create a function where you:
 - print the iterator
 - iterate through the iterator with any kind of looping method to print each element in the array
 
-(Hint: you can format your prints with `"{:?}"`)
+*(Hint: you can format your prints with `"{:?}"`)*
 
 ## Exercise 5
 
@@ -163,11 +165,11 @@ With this, we understand an iterator is something that we can call the `.next()`
 
 Try and implement this with a basic parsing of arguments in your main. This may be a good practice for your future projects in Rust.
 
-Maybe create a parsing of arguments for your program in *Exercise 1* like this:
+Maybe you could create a parsing of arguments for your program in *Exercise 1* like this:
 
 *Example*
 
-Input: `./target/debug/<.exe> Audrey 48`
+`./target/debug/<.exe> Audrey 48`
 
 Output:
 ```txt
@@ -178,10 +180,10 @@ Passing: Yes
 
 You can do some error handling and even print the usage with a specific flag,...
 
-(Hint: look at the modules below to manage arguments and look at how to exit your program)
+*(Hint: look at the modules below to manage arguments and look at how to exit your program)*
 
 ```rust
-use std::env
+use std::env;
 use std::process;
 ```
 
@@ -193,15 +195,15 @@ Try to recode a function that returns the factorial of `u64` value.
 
 For this, we don't want you to use:
  - return
- - any for or while
+ - for or while
  - additional variables
 
 and for a little bit more of a challenge:
  - no recursion
 
-The aim of this exercise is for computing the factorial elegantly with ranges and iterators.
+**The aim of this exercise is for computing the factorial elegantly with ranges and iterators.**
 
-(Hint: Search around on different functions you can use like `fold` and `rfold`)
+*(Hint: Search around on different functions you can use like `fold` and `rfold`)*
 
 ## Bonus - Linting in Rust
 
@@ -219,4 +221,4 @@ Now, **Clippy** can automatically apply some lint suggestions. Feel free to look
 cargo clippy
 ```
 
-It's a good practice to this for your Rust projects.
+It's a good practice to do this for your Rust projects.
