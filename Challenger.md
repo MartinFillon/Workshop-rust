@@ -37,13 +37,17 @@ Create a function that takes an integer type as parameter and is able to return 
 
 | Percentage  | Grade Value |
 | ----------- | ----------- |
-| 100 - 90  | A           |
-| 89 - 80   | B           |
-| 79 - 70   | C           |
-| 69 - 60   | D           |
-| < 60       | F           |
+| 100 - 90    | A           |
+| 89 - 80     | B           |
+| 79 - 70     | C           |
+| 69 - 60     | D           |
+| < 60        | F           |
 
-*(Hint: Look at `match`)*
+<details>
+  <summary> HINT </summary>
+
+  Look at `match`
+</details>
 
 ## Exercise 1
 
@@ -59,7 +63,11 @@ Grade: C
 Passing: Yes
 ```
 
-*(Hints: Use nested `match` statements to handle multiple conditions and use string formatting to construct the output message.)*
+<details>
+  <summary> HINT </summary>
+
+  Use nested `match` statements to handle multiple conditions and use string formatting to construct the output message.
+</details>
 
 > Simple right? Imagine a FizzBuzz in Rust
 
@@ -135,7 +143,11 @@ Create a function where you:
 - print the iterator
 - iterate through the iterator with any kind of looping method to print each element in the array
 
-*(Hint: you can format your prints with `"{:?}"`)*
+<details>
+  <summary> HINT </summary>
+
+  You can format your prints with `"{:?}"`
+</details>
 
 ## Exercise 5
 
@@ -180,14 +192,18 @@ Passing: Yes
 
 You can do some error handling and even print the usage with a specific flag,...
 
-*(Hint: look at the modules below to manage arguments and look at how to exit your program)*
+<details>
+  <summary> HINT </summary>
 
-```rust
-use std::env;
-use std::process;
-```
+  Look at the modules below to manage arguments and look at how to exit your program.
 
-Be careful here and make sure you understand what type of values are returned when using the different functions.
+  ```rust
+  use std::env;
+  use std::process;
+  ```
+
+  Be careful here and make sure you understand what type of values are returned when using the different functions.
+</details>
 
 ## Exercise 8 - Challenge
 
@@ -203,7 +219,11 @@ and for a little bit more of a challenge:
 
 **The aim of this exercise is for computing the factorial elegantly with ranges and iterators.**
 
-*(Hint: Search around on different functions you can use like `fold` and `rfold`)*
+<details>
+  <summary> HINT </summary>
+
+  Search around on different functions you can use like `fold` and `rfold`
+</details>
 
 ## Bonus - Linting in Rust
 
