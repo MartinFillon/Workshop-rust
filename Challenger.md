@@ -186,8 +186,8 @@ Maybe you could create a parsing of arguments for your program in *Exercise 1* l
 Output:
 ```txt
 Student: Audrey
-Grade: C
-Passing: Yes
+Grade: F
+Passing: No
 ```
 
 You can do some error handling and even print the usage with a specific flag,...
