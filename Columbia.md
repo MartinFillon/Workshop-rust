@@ -1,9 +1,32 @@
+# Workshop Rust Part III
+
 # Columbia
 
 Welcome back now that you've done `Discovery` and `Challenger` its now time for `Columbia`.
 
 As you might have seen everything here is based around NASA Space Shuttles.
 Thats why they are gonna be the base for our project here.
+
+Continuing from the last workshop, [Discovery.md](https://github.com/MartinFillon/Workshop-rust/blob/main/Discovery.md), this workshop aims to dive deeper into the language and learn more on the Rust's diverse features.
+
+This one will be a little more advanced so try and work at your own pace and feel free to ask question at any point.
+
+First of all, a quick review of the basic commands that will be useful:
+
+Create a Rust project:
+```sh
+cargo init
+```
+
+To build your project and create an executable:
+```sh
+cargo build
+```
+
+To quickstart your project:
+```sh
+cargo run
+```
 
 ## Exercice 0
 
@@ -22,18 +45,26 @@ Make it work.
 
 ## Exercice 1
 
-Now that you now that create a **struct** `Discovery` that contains 3 members:
+Now that you know that, create a **struct** `Discovery` that contains 3 members:
 - one **public** witch is a string for the name.
 - one **private** for the fuel which you must choose the type accordingly.
 - one **private** for the speed which you must choose the type accordingly.
 
-Create a function dedicated for this struct, this function needs to create a new one (the structure) with its parameters.
+Create a function dedicated for this struct.
+
+This function will create a new one of your structure through its parameters (the function's parameters).
+
+<details>
+  <summary> HINT </summary>
+
+  Look at `impl`
+</details>
 
 ## Exercice 2
 
-Now we gonna need to be able to print out the shuttle.
+Now we are gonna need to be able to print out the shuttle.
 
-Then, we expect a print like this `"O=>"`
+We expect a print like this: `"O=>"`
 
 ```rust
 fn main() -> {
@@ -64,7 +95,7 @@ Which have their respective files and as prints respectively:
 
 Now I want to create a function that takes any of those shuttles and tells me if they are able to cover the distance of 1.0E+42.
 
-Exemple of main:
+Example of main:
 
 ```rust
 fn main() -> {
@@ -81,6 +112,6 @@ fn main() -> {
 }
 ```
 
-## Exercice Bonus
+## Bonus
 
 Make your structures members Bean compliant.
