@@ -7,9 +7,7 @@ Welcome back now that you've done `Discovery` and `Challenger` its now time for 
 As you might have seen everything here is based around NASA Space Shuttles.
 Thats why they are gonna be the base for our project here.
 
-Continuing from the last workshop, [Discovery.md](https://github.com/MartinFillon/Workshop-rust/blob/main/Discovery.md), this workshop aims to dive deeper into the language and learn more on the Rust's diverse features.
-
-This one will be a little more advanced so try and work at your own pace and feel free to ask question at any point.
+Continuing from the last workshop, [Challenger.md](https://github.com/MartinFillon/Workshop-rust/blob/main/Challenger.md), this workshop aims to dive deeper into the language and learn more on the Rust's diverse features.
 
 First of all, a quick review of the basic commands that will be useful:
 
