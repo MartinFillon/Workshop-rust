@@ -6,7 +6,7 @@
 
 [Part 2: Challenger, the next steps](https://github.com/MartinFillon/Workshop-rust/blob/main/Challenger.md)
 
-[Part 2: Columbia](https://github.com/MartinFillon/Workshop-rust/blob/main/Columbia.md)
+[Part 3: Columbia](https://github.com/MartinFillon/Workshop-rust/blob/main/Columbia.md)
 
 ## Team
 
