@@ -56,6 +56,7 @@ This function will create a new one of your structure through its parameters (th
   <summary> HINT </summary>
 
   Look at `impl`
+
 </details>
 
 ## Exercice 2
@@ -70,6 +71,13 @@ fn main() {
     println!("{}\n", disc);
 }
 ```
+
+<details>
+  <summary> HINT </summary>
+
+  Look at `Display`
+
+</details>
 
 ## Exercice 3
 
