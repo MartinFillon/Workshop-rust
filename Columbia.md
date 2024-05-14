@@ -65,7 +65,7 @@ Now we are gonna need to be able to print out the shuttle.
 We expect a print like this: `"O=>"`
 
 ```rust
-fn main() -> {
+fn main() {
     let disc = Discovery::new();
     println!("{}\n", disc);
 }
@@ -96,7 +96,7 @@ Now I want to create a function that takes any of those shuttles and tells me if
 Example of main:
 
 ```rust
-fn main() -> {
+fn main() {
     /*Define some Shuttles*/
     println!("{}", can_cover(chall1));
     println!("{}", can_cover(chall2));
