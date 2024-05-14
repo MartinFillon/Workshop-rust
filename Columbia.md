@@ -34,7 +34,7 @@ In this file create a function `hello` that returns the string `"This is Discove
 You need to print the return from that function using this main:
 
 ```rust
-fn main() -> {
+fn main() {
     println!("{}\n", hello());
 }
 ```
