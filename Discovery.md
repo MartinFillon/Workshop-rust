@@ -37,7 +37,7 @@ cargo run
 Debugging and printing.
 
 In Rust you can debug really easily just pass whatever you want to the `dbg!()` macro and it will be printed on the stderr.
-Moreover, you can use `print{ln}!()` to print text or formatted string to stdout.
+Moreover, you can use `println!()` to print text or formatted string to stdout.
 
 ## Exercice 2
 
@@ -57,14 +57,14 @@ What happens ?
 Does it work ?
 
 You get an error, this is due to Rust safety feature. In Rust you cannot pass by copy a variable.
-Everything is passed to a function using moving to move data to function. That means that a variable change owners.
+Everything is passed to a function using moving to move data to function. That means that a variable changes owners.
 To prevent that you can use multiple things the first (and the one you must use here) is **Borrowing**.
 **Borrowing** is done using a `&` and the type must be adapted. (It works as a pointer in C but you don't allow them).
 
 Make so that this code works:
 
 ```rust
-fn main() -> {
+fn main() {
 	let s: String = "Vous savez ce que c'est une dicatature Dolorès ?".to_string();
 	dbg!(strlen(&s));
 	dbg!(strlen(&s));
