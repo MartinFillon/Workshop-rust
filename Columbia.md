@@ -12,16 +12,19 @@ Continuing from the last workshop, [Challenger.md](https://github.com/MartinFill
 First of all, a quick review of the basic commands that will be useful:
 
 Create a Rust project:
+
 ```sh
 cargo init
 ```
 
 To build your project and create an executable:
+
 ```sh
 cargo build
 ```
 
 To quickstart your project:
+
 ```sh
 cargo run
 ```
@@ -44,6 +47,7 @@ Make it work.
 ## Exercice 1
 
 Now that you know that, create a **struct** `Discovery` that contains 3 members:
+
 - one **public** witch is a string for the name.
 - one **private** for the fuel which you must choose the type accordingly.
 - one **private** for the speed which you must choose the type accordingly.
@@ -55,7 +59,7 @@ This function will create a new one of your structure through its parameters (th
 <details>
   <summary> HINT </summary>
 
-  Look at `impl`
+Look at `impl`
 
 </details>
 
@@ -75,7 +79,7 @@ fn main() {
 <details>
   <summary> HINT </summary>
 
-  Look at `Display`
+Look at `Display`
 
 </details>
 
@@ -85,7 +89,7 @@ Now that you discovered traits lets create yours.
 
 Create a trait `Shuttle` with a function `isTravelPossible` tells you if have enough fuel to cover a certain distance.
 
-*The distance is a floating point number such as `1.7976931348623157E+307`, which should fit in it.*
+_The distance is a floating point number such as `1.7976931348623157E+307`, which should fit in it._
 
 The formula you need to use is: `fuel * speed == distance`
 
